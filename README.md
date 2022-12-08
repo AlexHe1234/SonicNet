@@ -1,4 +1,4 @@
-# 基于神经网络的超声波三维成像（SonicNet）程序
+# 基于神经网络的超声波三维成像（SonicNet）GUI程序
 ## 配置环境
 1. 创建conda虚拟环境`conda create -n SonicNet python=3.10`
 2. 激活conda虚拟环境`conda activate SonicNet`
