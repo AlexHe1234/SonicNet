@@ -1,0 +1,31 @@
+---
+# use a virtual object instead of sensor data, use "shape1" to "shape4", use "none" for real object
+  uvo: shape1
+# only render existing model with sampling and training
+  render_only: false
+# use pre-trained model
+  load: false
+# how many rounds of sampling and training, reduce if using real data
+  sr: 100
+# in each sr, how many samples, reduce if using real data
+  spr: 100
+# in each sr, how many training iterations
+  epoch: 100
+# in each epoch, how many samples being trained at once, should be smaller than spr
+  batch_size: 100
+
+
+# distance between camera and axis, should be strictly measured
+  cd: 22
+# serial device name
+  device: CH340
+# baud rate of serial input, should match your serial device
+  baud: 9600
+# learning rate of the network
+  lr: 1.5e-4
+# how many pixels per cm
+  ppu: 10
+# what angles to render for the output test image(0-1 where 0 is 0 degree and 1 360 degree)
+  render_angle: 0
+# adjust this to models to get best render quality, normally 1 is fine
+  shade: 2
