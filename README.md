@@ -3,7 +3,7 @@
 1. 创建conda虚拟环境`conda create -n SonicNet python=3.10`
 2. 激活conda虚拟环境`conda activate SonicNet`
 2. 使用`cd`命令进入`SonicNet`目录
-3. 运行环境自动配置指令`pip install requirements.txt`
+3. 运行环境自动配置指令`pip install -r requirements.txt`
 4. 运行程序`python train_gui.py`
 ## 程序说明
 1. 可通过修改`SonicNet/config`目录下的`config.yaml`文件调整超参
