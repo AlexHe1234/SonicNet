@@ -7,8 +7,8 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, \
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtMultimediaWidgets import QVideoWidget
 from PyQt6.QtMultimedia import QMediaPlayer
-from SonicNet.utils.cfg_from_gui import *
-from SonicNet import train_yaml
+from utils.cfg_from_gui import *
+import train_yaml
 
 
 class Thread(QThread):
