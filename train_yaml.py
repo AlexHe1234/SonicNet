@@ -6,11 +6,11 @@ from torch.utils.data import TensorDataset, DataLoader
 from matplotlib import pyplot as plt
 import cv2
 import os
-from physics_exp.SonicNet.utils.fake_objects import create_virtual_obj
+from utils.fake_objects import create_virtual_obj
 import serial.tools.list_ports
 import time
 from config.cfg import yml_parse
-from physics_exp.SonicNet.utils.cfg_from_gui import yml_parse2
+from utils.cfg_from_gui import yml_parse2
 
 
 # create nerf-like model
